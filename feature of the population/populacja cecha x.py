@@ -55,7 +55,7 @@ class5 = []
 class6 = []
 class7 = []
 
-for i in range(0, 50):
+for i in range(0, size):
     if (results_rising[i] >= 3.0 and results_rising[i] < 3.49):
         class1.append(results_rising[i])
     elif (results_rising[i] >= 3.49 and results_rising[i] < 3.98):
